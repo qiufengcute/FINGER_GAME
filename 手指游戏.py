@@ -10,13 +10,13 @@ def di():
     global aa,ab,ba,bb,s
     b = random.randint(1,2)
     while True:
-        if b == '1' and aa == 0 or b == '2' and ab == 0:
+        if b == 1 and aa == 0 or b == 2 and ab == 0:
             b = random.randint(1,2)
         else:
             break
     a = random.randint(1,2)
     while True:
-        if a == '1' and ba == 0 or a == '2' and bb == 0:
+        if a == 1 and ba == 0 or a == 2 and bb == 0:
             a = random.randint(1,2)
         else:
             break
